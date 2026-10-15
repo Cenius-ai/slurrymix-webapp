@@ -1,0 +1,6 @@
+# Slurrymix has NO runtime dependencies: it is a single-file, standard-library
+# only, offline Python tool. Nothing here is required to run it.
+#
+# pytest is the test runner for the regression suite (test_slurrymix.py), which
+# also runs under the standard library: python3 -m unittest -v
+pytest==9.1.1
